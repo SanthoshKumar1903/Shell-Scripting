@@ -10,8 +10,9 @@ echo "Value in 3rd index of the array ${myArray[3]}"
 # To print all the values in the array
 
 echo "All the values in the array ${myArray[*]}"
+printf "%s\n"  "${myArray[@]}"
 
-# To get the ;ength of the array
+# To get the length of the array
 
 echo "Length of the array ${#myArray[*]}"
 
