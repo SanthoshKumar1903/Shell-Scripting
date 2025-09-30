@@ -3,8 +3,9 @@
 # Conditional statements in shell
 
 read -p "Enter your marks out of 100 : "  marks
-
-# In if else conditions we can use [] single brackets also but [[]] this is enhanced.
+i
+# In if else conditions we can use [] single brackets also but [[]] this has enhanced capabilities for conditional expressions. 
+# In if else we can also use (()) Double Parentheses for arithmetic operations.
 if [[ $marks -gt 40 ]]
 then
 	echo "You are PASS!"
